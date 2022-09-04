@@ -1,0 +1,39 @@
+* {
+	color: #ffff;
+}
+
+.Background {
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/background.jpg');
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/* Needed to position the navbar */
+	position: relative;
+	padding: 25px 50px;
+}
+
+.Heading1 {
+	text-align: center;
+	margin-top: 100px;
+}
+
+h1 {
+	max-width: 640px;
+	margin: 0 auto;
+	font-size: 3.125rem;
+	line-height: 1.1;
+}
+h2 {
+	font-size: 1.625rem;
+	margin: 1rem auto;
+	max-width: 640px;
+
+}
+h3 {
+	font-weight: 400;
+	margin: 0 auto;
+	font-size: 1.625rem;
+}
+

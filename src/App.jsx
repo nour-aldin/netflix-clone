@@ -1,6 +1,11 @@
+//import { Navbar } from "./components";
+import { GetStared } from "./container";
+
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <GetStared/>
+    </>
   );
 }
 
