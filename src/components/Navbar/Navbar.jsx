@@ -1,4 +1,4 @@
-import {/*langIcon,*/ logo } from "../../assets";
+import {/*langIcon,*/ logo } from "../../assets/imgs";
 import styles from './Navbar.module.css';
 
 const Navbar = () => (

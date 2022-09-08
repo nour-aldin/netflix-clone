@@ -1,0 +1,18 @@
+
+.header {
+	text-align: center;
+}
+
+div form button {
+	width: 15%;
+	height: 3.7rem;
+	margin-left: 0;
+	font-size: 1.652rem;
+	text-align: center;
+}
+
+input {
+	width: 30%;
+	height: 3.5rem;
+	color: black;
+}

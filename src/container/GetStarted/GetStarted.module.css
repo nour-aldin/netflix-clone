@@ -3,7 +3,7 @@
 }
 
 .Background {
-	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/background.jpg');
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets//imgs/background.jpg');
 	/* Center and scale the image nicely */
 	background-position: center;
 	background-repeat: no-repeat;
@@ -12,11 +12,13 @@
 	/* Needed to position the navbar */
 	position: relative;
 	padding: 25px 50px;
+	height: 43rem;
+	border-bottom: 8px solid #222;
 }
 
 .Heading1 {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 150px;
 }
 
 h1 {
@@ -34,6 +36,9 @@ h2 {
 h3 {
 	font-weight: 400;
 	margin: 0 auto;
-	font-size: 1.625rem;
+	font-size: 1.3rem;
+	margin-bottom: 15px;
+
 }
+
 
