@@ -17,9 +17,9 @@
 }
 
 .FlexContainer > div > section >h2 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       text-align: left;
-      margin: 10px 0;
+      margin: 5px 0;
       padding: 0;
       
 }
@@ -61,7 +61,4 @@ h5 {
 
 .heading {
       margin: 10px 10px;
-}
-.BoxContainer {
-      
 }

@@ -23,9 +23,9 @@ const Download = () => {
 			<div className={styles.rightSide}>
 				<section>
 				<h2>Download your shows to watch offline.</h2>
-				<h3><h2>Download your shows to watch offline.</h2></h3>
+				<h3>Save your favorites easily and always have <br/>something to watch.</h3>
 				</section>
-				
+
 			</div>
     </div>
   )

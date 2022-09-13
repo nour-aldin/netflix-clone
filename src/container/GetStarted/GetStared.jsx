@@ -1,4 +1,4 @@
-import {Navbar, Features, Download} from '../../components';
+import {Navbar, Features, Download, Tv} from '../../components';
 import TextFiledWithButton from '../../assets/UI/TextFiledWithButton/TextFiledWithButton';
 import styles from './GetStarted.module.css';
 
@@ -17,6 +17,7 @@ const GetStared = () => {
       
       <Features/>
       <Download/>
+      <Tv/>
     </div>
   )
 }
