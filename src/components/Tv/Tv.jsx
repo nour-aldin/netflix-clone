@@ -1,19 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './Tv.module.css';
 import { devicePile, kids } from '../../assets/imgs';
 import vd from '../../assets/vidoes/video-devices.m4v';
-
+import Faq from '../Faq/Faq';
+import { footerLinks } from '../../constants';
 const Tv = () => {
-
-	const [showFreq, setFreq] = useState(false);
-	let Spam = null
-
-	if(showFreq) {
-		Spam = <span>asfdoiadfhiouefhnklsdncoiwehfoisadhfiosd</span>
-	}
-	const buttonHandel = () => {
-		setFreq(!showFreq);
-	}
   return (
     <>
       <div className={styles.FlexContainer}>
@@ -46,19 +37,8 @@ const Tv = () => {
 					</section>
 
 				</div>	
-			</div>
-
-			<div className={styles.FlexContainer}>
-				<ul>
-					<li>
-						<button onClick={buttonHandel}>What is netflix ?</button>
-						{Spam}
-						
-					</li>
-				</ul>
-			</div>
-
-		
+			</div>		
+			<Faq/>
     </>
   )
 }

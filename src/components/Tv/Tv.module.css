@@ -6,7 +6,7 @@
       background-color: black;
       padding: 70px 50px ;
       height: 400px;
-      border-bottom: 8px solid #222;;
+      border-bottom: 8px solid #222;
 }
 
 .FlexContainer > div {
@@ -52,4 +52,20 @@ img {
 
 .Freq {
       background-color: #222;
+}
+
+section {
+      background-color: black;
+      margin:0
+}
+
+.Parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.child {
+  flex: 25%;
 }
